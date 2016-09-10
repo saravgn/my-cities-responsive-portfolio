@@ -1,0 +1,54 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: blue;
+  background-color: black;
+}
+
+@media screen and (min-width: 400px) and (max-width: 500px) {
+
+  .yes {
+    opacity: 1;
+  }
+
+  body {
+
+  }
+
+}
+
+img, 
+embed,
+object, 
+video {
+  max-width: 100%;
+}
+
+nav a, button {
+  min-height: 48px;
+  min-width: 48px;
+}
+
+.text-muted {
+	color: #BCBBBB;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+.title-super {
+	font-size: 40px;
+}
+
+.title-logo {
+	margin-top: 10px;
+}
+
+iframe:focus {
+    outline: none;
+}
+
+iframe[seamless] {
+    display: block;
+}

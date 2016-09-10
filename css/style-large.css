@@ -1,0 +1,88 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: blue;
+  background-color: black;
+
+
+
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+@media screen and (min-width: 400px) and (max-width: 500px) {
+
+  .yes {
+    opacity: 1;
+  }
+
+  body {
+
+  }
+
+}
+
+
+@media screen and (min-width: 400px){
+
+  .objet1 { order: 3; }
+  .objet3 { order: 1; }
+  .objet2 { order: 4; }
+  .objet4 { order: 2; }
+
+}
+
+
+
+img, embed,
+object, video {
+  max-width: 100%;
+}
+
+nav a, button {
+  min-height: 48px;
+  min-width: 48px;
+}
+
+
+body {
+
+  margin: 0;
+
+}
+
+img {
+  float:left;
+  margin-right: 10px;
+  width: calc((100% - 20px)/3) 
+}
+
+img: last-of-type {
+  margin-right: 0;
+}
+
+
+.text-muted {
+	color: #BCBBBB;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+.title-super {
+	font-size: 40px;
+}
+
+.title-logo {
+	margin-top: 10px;
+}
+
+iframe:focus {
+    outline: none;
+}
+
+iframe[seamless] {
+    display: block;
+}
